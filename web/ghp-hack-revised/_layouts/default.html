@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="icon" type="image/png" href="assets/img/terminal.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    <title>{{ site.name }} &#8759; {{ page.title }}</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>{{ site.name }}</h1>
+        <h2>{{ site.description }}</h2>
+
+        <section id="buttons">
+          <a href="{{ site.source_url }}" class="btn"><span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x fa-inverse"></i></span>Source</a>
+          <a href="{{ site.source_url }}/wiki" class="btn"><span class="fa-stack fa-lg"><i class="fa fa-book fa-stack-1x fa-inverse"></i></span>Wiki</a>
+          <a href="{{ site.source_archive }}" class="btn"><span class="fa-stack fa-lg"><i class="fa fa-archive fa-stack-1x fa-inverse"></i></span>Download</a>
+        </section>
+
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+
+        {{ page.content }}
+
+      </section>
+    </div>
+
+    {% include footer-cc-license.html %}
+
+  </body>
+</html>

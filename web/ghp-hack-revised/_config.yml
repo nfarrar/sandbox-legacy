@@ -1,0 +1,16 @@
+name: GHP Hack Theme Revised
+description: A fork of the popular github pages hack theme.
+author: Nathan Farrar
+author_email: nathan.farrar@gmail.com
+url: http://ghr.crunk.io/
+source_url: http://github.com/nfarrar/ghp-hack-revised
+source_archive: https://github.com/nfarrar/ghp-hack-revised/archive/gh-pages.zip
+markdown: rdiscount
+pygments: true
+permalink: /:title
+exclude: [README.md]
+gems:
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji

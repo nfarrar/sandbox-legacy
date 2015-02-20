@@ -1,0 +1,59 @@
+{
+  "name": "FlaskSkeleton",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nfarrar/sandbox/flask_skeleton",
+  "description": "FlaskSkeleton",
+  "keywords": [
+    "flask",
+    "bower",
+    "grunt"
+  ],
+  "authors": [
+    "Nathan Farrar"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.2",
+    "font-awesome": "~4.0.3",
+    "html5shiv": "~3.7.0",
+    "jquery": "~2.0.3",
+    "modernizr": "~2.7.1",
+    "requirejs": "~2.1.9",
+    "respond": "~1.4.0"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "css": ["dist/css/bootstrap.css", "dist/css/bootstrap-theme.css"],
+      "fonts": "fonts/*",
+      "js": "js/*.js",
+      "img": "img/*.png"
+    },
+    "font-awesome": {
+      "css": "css/font-awesome.css",
+      "fonts": "fonts/*"
+    },
+    "html5shiv": {
+      "js": "dist/*.js"
+    },
+    "jquery": {
+      "js": "jquery.js"
+    },
+    "modernizr": {
+      "js": "modernizr.js"
+    },
+    "requirejs": {
+      "js": "require.js"
+      },
+    "respond": {
+      "js": "src/*.js"
+    }
+  }
+}
